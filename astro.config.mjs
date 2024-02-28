@@ -12,5 +12,6 @@ import robotsTxt from "astro-robots-txt";
 export default defineConfig({
   prefetch: true,
   site: SITE_METADATA.siteUrl,
+  base: '/blog',
   integrations: [mdx(), sitemap(), tailwind(), solidJs(), metaTags(), robotsTxt()]
 });
