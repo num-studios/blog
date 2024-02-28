@@ -5,7 +5,8 @@ import svelte from "@astrojs/svelte";
 
 // https://astro.build/config
 export default defineConfig({
-  site: "https://numstudios.valbuilds.xyz",
+  site: "https://valbuildr.github.io",
+  base: "/num-studios"
   compressHTML: true,
   scopedStyleStrategy: "class",
   image: {
